@@ -6,13 +6,12 @@ describe('HeroesComponent', () => {
   let component: HeroesComponent;
   let fixture: ComponentFixture<HeroesComponent>;
 
-  beforeEach(
-    async(() => {
-      TestBed.configureTestingModule({
-        declarations: [HeroesComponent]
-      }).compileComponents();
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ HeroesComponent ]
     })
-  );
+    .compileComponents();
+  }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(HeroesComponent);
@@ -20,7 +19,7 @@ describe('HeroesComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should be created', () => {
     expect(component).toBeTruthy();
   });
 });

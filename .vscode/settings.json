@@ -1,0 +1,11 @@
+{
+  "terminal.integrated.shell.windows":
+    "D:\\Program Files HDD ONE\\Git\\bin\\bash.exe",
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "telemetry.enableTelemetry": false,
+  "workbench.iconTheme": "material-icon-theme"
+}
